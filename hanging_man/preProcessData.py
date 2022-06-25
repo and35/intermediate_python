@@ -1,4 +1,5 @@
 import re
+import csv
 
 # "how to split a text in words"
 def split_words():
@@ -85,8 +86,8 @@ for key, value in info_words.items():
 for key, value in level_words.items():
   print(str(key) + "----"+ str(value))
 
-import csv
-
-with open("./data/dict_of_words.csv", "w", encoding="utf-8") as f: 
-    for key in level_words.keys():
-        f.write("%s, %s\n" % (key, level_words[key]))
+# i searched "Python Dictionary to CSV"
+import json
+with open("./data/dict_of_words.json", "w", encoding="utf-8") as f: 
+  json.dump(level_words, f)
+        
