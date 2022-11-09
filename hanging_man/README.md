@@ -1,4 +1,14 @@
 # hangman game
+## UI game demo
+home 
+
+![alt text](https://github.com/and35/intermediate_python/blob/main/hanging_man/home_hanging_man.png)
+
+in the game
+
+![alt text](https://github.com/and35/intermediate_python/blob/main/hanging_man/game_interface.png)
+
+
 As a final proyect i developed this proyect where i can apply all my knowelge adquired in the course. so you will learn how to apply in practice the next topics of python:
 - neasted dicts and lists 
 - comprehensions dicts and lists
@@ -13,8 +23,9 @@ and more topics like:
 - Terminal user interface for games
 - logic of a game 
 
+
 ## about hangman game 
-Hangman is a guessing game for two or more players. computer create a word and you  guees it. you have 5 lifes. you can check the global score. 
+Hangman is a guessing game for two or more players. computer create a word and you  guees it. you have 5 lifes. you can check the global score. if you lose the computer will shouw you the answer. 
 
 ### fast use
 1. install python and the libraries of requirements.txt
